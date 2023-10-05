@@ -18,7 +18,7 @@ html,body{
 }
 */
 
-.header{
+header{
     font-size: 15px;
 }
 
@@ -44,34 +44,30 @@ html,body{
     color: white;
   }
 
-  .content {
+  section {
     width: 90%;
     margin: auto;
     font-size: 18px;
   }
 
-  .lead {
-    font-size: 20px;
-  }
-
-  .content a {
+  section a {
     color: white;
   }
 
-  .content p.valiotsikko {
+  section p.valiotsikko {
     color: white;
     font-size: 19px;
     text-decoration: underline;
 
   }
 
-  .content img{
+  section img{
     width: 30%;
     padding: 10px 0px 10px 0px 
   }
 
 
-  .footer {
+  footer {
     background-color: #50b9c1; 
     margin: 0;
     width: 100%;
@@ -83,7 +79,7 @@ html,body{
 
 
     @media only screen and (min-width: 700px) {
-        .content {
+        section {
             width: 75%;
           }
 
@@ -98,10 +94,10 @@ html,body{
       }
 
     @media only screen and (min-width: 1025px) {
-        .content {
+        section {
             width: 55%;
           }
-          .header{
+          header{
             font-size: 20px;
             margin: 0px; 
             padding: 10px 
